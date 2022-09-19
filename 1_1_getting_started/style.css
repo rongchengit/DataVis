@@ -7,14 +7,17 @@ body {
 h1 {
   font-size: 3em;
   margin: 0.25em 0;
+  color: red;
 }
 
 h3 {
   font-size: 2em;
   margin: 0.25em 0;
+  color:red;
+
 }
 
 p {
   font-size: 1em;
-  color: pink;
+  color: green;
 }
