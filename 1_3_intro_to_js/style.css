@@ -1,13 +1,21 @@
+/*changed the font to Tillana*/
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Tillana";
   font-size: 16px;
   padding: 1em;
+  background:grey
 }
 
 h1 {
+  background:burlywood;
   font-size: 3em;
 }
+/*changed heading to color red*/
 
+h2{
+  background: burlywood;
+  color:red
+}
 h3 {
   font-size: 2em;
   margin: 0.25em 0;
@@ -20,4 +28,46 @@ p {
 
 section {
   padding: 2em 0;
+}
+
+
+/* for the class select*/
+.select{
+  display: grid; /*creates grid like appearance */
+  grid-template-columns: repeat(3, 1fr);/*creates 3 columns of equal width */
+  max-width: 300px;
+  gap: 1px;
+}
+.select_item{
+  padding:10px;
+  cursor: pointer; /* allow clicking */
+  font-family: "Tillana", sans-serif;
+  text-align: center;
+  border-radius: 3px;
+  background: burlywood;
+  transition: background 0.1; /* speed in which it changes color of button*/
+}
+
+.select_item_selected{
+  background:lightseagreen;
+  color:lightsalmon
+}
+
+#box{
+  height: 75px;
+  width: 200px;
+  border: 5px solid burlywood;
+  margin: 50px auto;
+}
+
+#number{
+ text-align: center;
+}
+
+#increase{
+
+ margin-left: 50px;
+}
+#decrease{
+ margin-left: 50px;
 }
