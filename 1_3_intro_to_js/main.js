@@ -44,19 +44,21 @@ document.querySelectorAll('.custom_select').forEach((selectElement) =>{
 
 */
 //functions to allow buttons to work by pointing at them
-let add = document.getElementById('increase');
-let remove = document.getElementById('decrease');
+let add = document.getElementById('increase');//declaring increaes
+let remove = document.getElementById('decrease');//declaring decrease
 
-let int = document.getElementById('number');
+let int = document.getElementById('number');//declaring number
 let count = 0;//counter set at 0
 
+//what the add button does inside the function
 add.addEventListener('click',function(){
     //counter increases to 1
-    count += 1;
-    int.InnerHTML = count;
+    count ++;
+    int.innerHTML = count;//this changes number to count
 })
 
+//what the remove button does out
 remove.addEventListener('click',function(){
-    count -= 1;
-    int.innerHTML = count;
+    count --;
+    int.innerHTML = count;//this changes number to count
 })
