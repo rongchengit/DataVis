@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Popular Baby Names</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+  </head>
+  <body>
+    <label id="labelyear" style= "font-size: 50px; font-weight: bold;"> </label>
+    <div id="container" style="width: 1150px; height: 400px">
+      <div id="container1" style="width: 450px; float: left; height: 400px"><h3>Popular Boy Names </h3></div>
+      <div id="container2" style="width: 450px; float: right; height: 400px"><h3>Popular Girl Names </h3></div>
+    </div>
+    <button onclick="repeat()">Replay BarChart</button><br>
+    <p>
+    What are the most popular baby names in NYC from 2011-2019?<br>
+    According to the Charts the overall top 3 in both categories are Jacob at 1393, Esther at 1312, and Joseph at 1162.<br>
+    So what does it mean? Probably nothing, or maybe NYC citizens can't stop themselves from naming their children after <br>
+    the hit movie star, teen wolf sensation from Twilight, the evil version of Benjamin Button from Orphan, and the man<br>
+    that single handily put NYC on the map with his masterful performance of stealing former presidents George W. Bush's<br>
+    wrist watch in front of his secret service in David Blaine.<br>
+    </p>
+    <body>
+    <div class="row">
+      <div class="column">
+        <h3> 1st Place</h3>
+        <a href = "https://www.youtube.com/watch?v=QsQAo97BaBA"> 
+          <img src = "./1st.png" width = "300" height = "200"> 
+        </a>
+      </div>
+      <div class="column">
+        <h3> 2nd Place</h3>
+        <a href = "https://www.youtube.com/watch?v=EwN6mh-tXV4"> 
+          <img src = "./2nd.png" width = "300" height = "200"> 
+        </a>
+      </div>
+      <div class="column">
+        <h3> Loser </h3>
+        <a href = "https://www.youtube.com/watch?v=CT-sAQgJ7jA"> 
+          <img src = "./3rd.png" width = "300" height = "200"> 
+        </a>
+      </div>
+    </div>
+    </body>
+    <p>
+    So with the common interest in these names having all "coincidentally" being named after celebrities and one person<br>
+    in particular and his many characters showing up on the graph, multiple times in a incognito-ish way. The man that<br>
+    supposedly died from some cold water, the one oscar winning man in Leonardo Dicaprio that has grabbed NYC by<br>
+    the gender neutral name by the neck. Who I am convinced deleted the 2018 due to the popularity of Leonardos being named<br> 
+    </p>
+    <a href = "https://www.youtube.com/watch?v=R-nbyBsjeiw"> 
+      <img src = "./Leo.png" width = "300" height = "200"> 
+    
+    <!-- Future Iteration for barplot -->
+    <div id="container3"></div>
+    <script src="../lib/d3.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
