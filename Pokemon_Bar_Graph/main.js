@@ -17,7 +17,7 @@ d3.csv('pweight.csv',d =>{
     //Sorting before slice will give me the fattest or skinnest pokemon and sorting after slice will give me fattest only for after slice
     //place before all places i would use pokeW so in the beginning
     //double sorting to get heaviest then slice then resort back into lightest so the second sort is the inversion
-    pokeW = pokeW.sort((a,b) => b.bodyweight - a.bodyweight).slice(0,20).sort((a,b) => a.bodyweight - b.bodyweight)
+    pokeW = pokeW.sort((a,b) => b.bodyweight - a.bodyweight).slice(0,25).sort((a,b) => a.bodyweight - b.bodyweight)
     heaviestPokemon = d3.max(pokeW, d => d.bodyweight)
     console.log("heaviestPokemon: ",heaviestPokemon)
     /* SCALES */
