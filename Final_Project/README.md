@@ -5,7 +5,7 @@
 - Download the files in the Folder for Final_Project
 - Be able to run it on a server to render the results
 
-# [PokemonWeight :: Click On Me To See Server Render](https://rongchengit.github.io/DataVis/Pokemon_Bar_Graph/)
+# [Census Project :: Click On Me To See Server Render](https://rongchengit.github.io/DataVis/Final_Project/)
 
 # What The Graph Shows:
 

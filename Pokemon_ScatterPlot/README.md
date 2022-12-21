@@ -4,7 +4,7 @@
 
 - Download the files in the Folder for Pokemon_Scatterplot
 - Be able to run it on a server to render the results
-- [PokemonWeight And Height :: Click On Me To See Server Render](https://rongchengit.github.io/DataVis/Pokemon_ScatterPlot/)
+# [PokemonWeight And Height :: Click On Me To See Server Render](https://rongchengit.github.io/DataVis/Pokemon_ScatterPlot/)
 
 # What The Graph Shows:
 

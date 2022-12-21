@@ -4,6 +4,7 @@
 
 - Download the files in the Folder for Pokemon_Bar_Graph
 - Be able to run it on a server to render the results
+# [Pokemon Weight :: Click On Me To See Server Render](https://rongchengit.github.io/DataVis/Pokemon_Bar_Graph/)
 
 # What The Graph Shows:
 
